@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodPanda Clone</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>FoodPanda</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Restaurants</a></li>
+                    <li><a href="#">Order</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2 style="color: black;">Order food from your favorite restaurants</h2>
+            <p style="color: black;">Discover the best restaurants near you and enjoy delicious meals delivered to your doorstep.</p>
+        </div>
+    </section>
+    <section class="restaurants">
+        <div class="container">
+            <h2>Popular Restaurants</h2>
+            <select id="cuisine">
+                <option value="all">All Cuisines</option>
+                <option value="italian">Italian</option>
+                <option value="mexican">Mexican</option>
+                <option value="indian">Indian</option>
+                <option value="chinese">Chinese</option>
+            </select>
+            <ul id="restaurant-list">
+                <li class="restaurant" data-cuisine="italian">Pizza Place</li>
+                <li class="restaurant" data-cuisine="mexican">Taco House</li>
+                <li class="restaurant" data-cuisine="indian">Curry Palace</li>
+                <li class="restaurant" data-cuisine="chinese">Wok Express</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FoodPanda Clone</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
